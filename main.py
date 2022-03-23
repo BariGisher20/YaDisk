@@ -42,3 +42,6 @@ if __name__ == '__main__':
     ya = YaUploader(token=TOKEN)
     # pprint(ya.get_files_list())
     pprint(ya.upload_file_to_disk("test.txt", "test.txt"))
+
+
+
